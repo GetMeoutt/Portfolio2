@@ -110,8 +110,3 @@ After setting up my portfolio locally, I made it accessible over the internet us
     Screenshot: (Portfolio running publicly)  
     ![Alt text](assets/Pasted%20image%2020250218011322.png)
     
-# Conclusion
-
-By setting up my portfolio on AWS EC2, I met the cloud deployment requirement of the project. My setup ensures remote access, HTTPS security, and a custom domain.
-
-Note: No additional changes were needed in the Caddy configuration after the domain setup.
