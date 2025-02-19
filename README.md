@@ -39,7 +39,7 @@ To set up my portfolio on the Raspberry Pi, I followed these steps:
     - Created a .service file to allow the website to run even after closing the terminal.
 
     Screenshot: (Service file setup)  
-    ![Alt text](assets/Pasted%20image%20202502180001806.png)
+    ![alt](assets/systemd.png)
     
 5. Installing & Configuring Caddy
     - Installed Caddy using the following command:
@@ -58,8 +58,8 @@ To set up my portfolio on the Raspberry Pi, I followed these steps:
 6. Final Testing
     - Restarted Caddy and confirmed that the portfolio is now accessible on port 80.
     Screenshot: (Portfolio running locally on port 80)  
-    ![Alt text](assets/Pasted%20image%20202502180004821.png)
-    
+    ![Alt text](assets/localrun.png)
+    [[Pasted 20image 20202502180004821.png]]
 # Running Portfolio Publicly
 
 After setting up my portfolio locally, I made it accessible over the internet using AWS.
