@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 
 import  Navbar  from "@/components/ui/navbar";
 import Hero from "@/components/ui/Hero";
@@ -12,7 +12,17 @@ import Contact2 from "@/components/ui/contact2";
 import GithubContribution from "@/components/ui/github-contribution";
 // import GithubContribution from "@/components/ui/github-contribution";
 export default async function Home() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.type = "module";
+    script.defer = true;
+    script.src = "https://cdn.jsdelivr.net/gh/imananoosheh/github-contributions-fetch@latest/github_calendar_widget.js";
+    document.body.appendChild(script);
 
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
    
