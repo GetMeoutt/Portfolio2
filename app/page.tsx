@@ -9,6 +9,8 @@ import { Contact } from "@/components/ui/contact";
 import Project2 from "@/components/ui/project2";
 import Skills2 from "@/components/ui/skills2";
 import Contact2 from "@/components/ui/contact2";
+import GithubContribution from "@/components/ui/github-contribution";
+// import GithubContribution from "@/components/ui/github-contribution";
 export default async function Home() {
 
 
@@ -17,11 +19,12 @@ export default async function Home() {
     <div className=" overflow-hidden bg-[rgb(20,19,17)]">
       <Navbar />
       <Hero />
-      {/* <Skills /> */}
-      {/* <Projects /> */}
-    <Project2/>
-    <Skills2/>
-      <Contact2 />   
+      <Project2/>
+      <GithubContribution/>  
+      <Skills2/>
+       
+      <Contact2 /> 
+      
     </div>
     
   );

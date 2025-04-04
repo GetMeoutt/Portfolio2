@@ -3,7 +3,9 @@ import { motion } from "framer-motion";
 import Skillcard from "./skillscard";
 export default function Skills() {
   return (
+    
     <div className="relative w-full pt-64 text-gray-400 p-10 flex flex-row h-fit overflow-visible">
+      {/* <script type="module" defer src="https://cdn.jsdelivr.net/gh/imananoosheh/github-contributions-fetch@latest/github_calendar_widget.js"></script> */}
       {/* Title Section */}
       <div className="relative w-[40%] flex justify-end overflow-visible">
         <motion.h2
@@ -51,6 +53,7 @@ export default function Skills() {
 
 
       </motion.div>
+      {/* <div id="calendar-component" username="getmeoutt">a</div> */}
     </div>
   );
 }

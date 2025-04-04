@@ -25,7 +25,7 @@ export default function Navbar() {
         href="https://www.linkedin.com/in/noppanat/"
         target="_blank"
       >
-        Linkedin
+        Linkedin!
       </a>
       <p> / </p>
       <a
