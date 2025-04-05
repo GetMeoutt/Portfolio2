@@ -18,6 +18,7 @@ export default function GithubContribution() {
 
   return (
     <div className="self-center flex justify-center">
+      
   <div id="calendar-component" username="Getmeoutt" theme-color="#818cf8" background-color="#141311"></div>
   </div>);
 }
