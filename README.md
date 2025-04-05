@@ -48,3 +48,12 @@ After defind all of the provider, I created a file call `middleware.tx` which ne
 Done, I created I signIn option using NextAuth with thirdparty website (provider)
 
 Next, I install the Github contribution element using Github
+```text
+https://cdn.jsdelivr.net/gh/imananoosheh/github-contributions-fetch@latest/github_calendar_widget.js"
+```
+I added the element that will act as a github contribution bar:
+```typescript
+<div id="calendar-component" username="Getmeoutt" theme-color="#818cf8" background-color="#141311"></div>
+```
+
+done! I successfully added the github contribution bar
